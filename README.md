@@ -33,7 +33,6 @@ AI_TicTacToe/
 ├── minimax.py           # AI logic using Minimax algorithm
 ├── utils.py             # Helper functions (win/draw checks)
 ├── README.md            # Project documentation
-└── requirements.txt     # Project dependencies
 ```
 
 ---
@@ -50,14 +49,11 @@ git clone https://github.com/KedarPoul/AI-Based-Tic-Tac-Toe-Game.git
 cd AI-Based-Tic-Tac-Toe-Game
 ```
 
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+
 
 > No external libraries are required.
 
-### 4. Run the Game
+### 3. Run the Game
 ```bash
 python main.py
 ```
@@ -88,3 +84,4 @@ python main.py
 
 ## 📄 License
 This project is open-source and available for learning and educational purposes.
+
