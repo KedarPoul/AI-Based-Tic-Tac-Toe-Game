@@ -2,8 +2,6 @@ from utils import check_winner, is_draw
 
 
 def minimax(board, depth, is_maximizing):
-    """Minimax algorithm to determine best move."""
-
     if check_winner(board, "O"):
         return 1
     if check_winner(board, "X"):

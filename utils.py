@@ -1,5 +1,4 @@
 def check_winner(board, player):
-    """Checks if the given player has won."""
     win_conditions = [
         (0, 1, 2),
         (3, 4, 5),
@@ -14,5 +13,4 @@ def check_winner(board, player):
 
 
 def is_draw(board):
-    """Checks if the game is a draw."""
     return " " not in board
